@@ -15,11 +15,35 @@
     <script src="js/exercicio10.js"></script>
     <script src="js/exercicio11.js"></script>
     <script src="js/desafio-final.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>DSII - Exercicios JS</title>
-    <style>
-    </style>
   </head>
   <body>
-    <h1>DSII - Exercicios JS</h1>
+    <div class="flex flex-col items-center gap-2">
+      <h1 class="text-5xl flex justify-center font-bold">
+        DSII - Exercicios JS
+      </h1>
+      <div class="flex justify-center gap-2 max-w-[40vw]">
+        <button
+          id="fundamentos"
+          onclick="apresentaFundamentos()"
+          class="bg-[#ccc] py-1 px-4 rounded-xl border-2 border-black"
+        >
+          Fundamentos Web
+        </button>
+        <button
+          id="exercicio"
+          onclick="apresentaExercicios()"
+          class="bg-[#ccc] py-1 px-4 rounded-xl border-2 border-black"
+        >
+          Exercicios
+        </button>
+      </div>
+      <div id="dynamicBody">
+        <h3 class="text-2xl">aperte um dos botões acima</h3>
+      </div>
+    </div>
+
+    <script src="js/dom.js"></script>
   </body>
 </html>
