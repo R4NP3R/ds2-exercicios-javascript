@@ -7,3 +7,6 @@ O banco de dados pode ser necessário para personalização de dados por usuári
 
 ### Uncaught ReferenceError: Console is not defined - qual o motivo que esse erro ocorre?
 Ele ocorre porque dentro do JS temos um objeto nativo, o console, quando tentamos chamar por Console com o C maiúsculo chamamos algo que não existe em JS e por isso da um erro de referencia quando o JS vai buscar por Console. Básicamente estamos tentanto buscar algo que não existe e ocorre o erro acima.
+
+### Porque converter o tipo de dado recebido pelo prompt() para number?
+É necessário converter por que tudo que vem de dentro de prompt() retorna como string, então o valor recebido não é 10 e sim '10' que ocasionaria em uma concatenação e não na soma de dois números.
