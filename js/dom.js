@@ -57,16 +57,17 @@ function apresentaFundamentos() {
 function apresentaExercicios() {
   dynamicBody.innerHTML = `
   <div class="flex bg-[#ccc] py-8 justify-center flex-wrap max-w-[50vw] gap-4">
-          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio1()">Exercicico 1</button>
-          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio2()">Exercicico 2</button>
-          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio3()">Exercicico 3</button>
-          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio4()">Exercicico 4</button>
-          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio5()">Exercicico 5</button>
-          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio6()">Exercicico 6</button>
-          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio7()">Exercicico 7</button>
-          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio8()">Exercicico 8</button>
-          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio10()">Exercicico 10</button>
-          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio11()">Exercicico 8</button>
+          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio1()">Exercicio 1</button>
+          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio2()">Exercicio 2</button>
+          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio3()">Exercicio 3</button>
+          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio4()">Exercicio 4</button>
+          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio5()">Exercicio 5</button>
+          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio6()">Exercicio 6</button>
+          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio7()">Exercicio 7</button>
+          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio8()">Exercicio 8</button>
+          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio9()">Exercicio 9</button>
+          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio10()">Exercicio 10</button>
+          <button class="px-4 py-2 bg-[#ddd]" onclick="exercicio11()">Exercicio 11</button>
           <button class="px-4 py-2 bg-[#ddd]" onclick="desafioFinal()">Desafio Final</button>
   </div>
   `
